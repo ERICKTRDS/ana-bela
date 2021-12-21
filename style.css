@@ -1,0 +1,49 @@
+body{
+    background: darkgray;
+    color: rgb(23, 0, 126);
+}
+a:link{
+    color: rgb(252, 0, 0);
+    background-color: hotpink;
+}
+a:visited{
+    background-color: rgb(108, 108, 109);
+    color:lime;
+}
+a:active{
+    color: darkslategrey;
+    background-color: #fff;
+}
+a{
+    padding: 10px 10px ;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+a:hover{
+    color: #fff;
+    background-color: black;
+}
+
+#menu{
+    text-align: left;
+    margin: 20px; 
+}
+
+
+#index #menu .index a,
+#biografia #menu .biografia a, 
+#campanhas #menu .campanhas a,
+#contato #menu .contato a
+{
+    background-color:black;
+    background-position: right bottom;
+    color:lime;
+}
+h1{
+    font-family: cursive;
+    color: rgb(255, 255, 255);
+}
+h4{
+    color: red;
+}
